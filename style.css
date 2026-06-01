@@ -1,0 +1,52 @@
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+body, td, th, tr, p, a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-display: auto;
+}
+
+strong {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-display: auto;
+}
+
+h1 {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+  font-display: auto;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.paper-link {
+  font-weight: bold;
+}
