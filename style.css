@@ -50,3 +50,94 @@ h3 {
 .paper-link {
   font-weight: bold;
 }
+
+/* ==============================
+   Hero / Intro Section
+   ============================== */
+.hero-section {
+  padding: 25px 20px;
+  margin: 12px 0;
+}
+
+.hero-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero-left {
+  flex: 0 0 28%;
+  max-width: 28%;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.hero-right {
+  flex: 0 0 65%;
+  max-width: 65%;
+  padding: 10px 15px;
+}
+
+.hero-photo-wrapper {
+  text-align: center;
+}
+
+.hero-photo {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero-name {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.hero-links {
+  margin: 4px 0 0 0;
+  font-size: 13px;
+}
+
+.hero-links a {
+  white-space: nowrap;
+  color: #555;
+  margin: 0 4px;
+  transition: color 0.2s;
+}
+
+.hero-links a:hover {
+  color: #1772d0;
+}
+
+.hero-icon {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 600px) {
+  .hero-row {
+    flex-direction: column;
+  }
+
+  .hero-left,
+  .hero-right {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .hero-right {
+    text-align: center;
+  }
+
+  .hero-right p {
+    text-align: justify;
+  }
+}
