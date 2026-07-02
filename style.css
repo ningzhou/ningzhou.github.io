@@ -53,7 +53,8 @@ h3 {
 
 .paper-thumb {
   width: 100%;
-  max-width: 150px;
+  min-width: 200px;
+  max-width: 400px;
   border-radius: 4px;
   object-fit: cover;
 }
